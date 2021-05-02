@@ -2,7 +2,7 @@
 This is 10 level adiustment for car leveling lights. Is using 7 segment display because was fitting in to small space of oryginal housing.
 
 
-
+"
 struct NUMBERS{
   bool led[10][8] = { {1,1,1,1,1,1,0,0},//0
                       {0,0,0,0,1,1,0,0},//1
@@ -144,3 +144,4 @@ void setup() {
 void loop() {
   // put your main code here, to run repeatedly:
 }
+"
